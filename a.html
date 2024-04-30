@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orders Result</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Orders Result</h1>
+  <table>
+    <tr>
+      <th>ORDER NUMBER</th>
+      <th>QUANTITY ORDERED</th>
+      <th>PRICEEACH</th>
+      <th>ORDER LINE NUMBER</th>
+      <th>SALES</th>
+      <th>ORDER DATE</th>
+      <th>STATUS</th>
+      <th>QTR_ID</th>
+      <th>MONTH_ID</th>
+      <th>YEAR_ID</th>
+      <th>ADDRESSLINE1</th>
+      <th>ADDRESSLINE2</th>
+      <th>CITY</th>
+      <th>STATE</th>
+      <th>POSTALCODE</th>
+      <th>COUNTRY</th>
+      <th>TERRITORY</th>
+      <th>CONTACT LAST NAME</th>
+      <th>CONTACT FIRST NAME</th>
+      <th>DEAL SIZE</th>
+    </tr>
+    <tr>
+      <td>10107</td>
+      <td>30</td>
+      <td>95.70</td>
+      <td>2</td>
+      <td>2871.00</td>
+      <td>2/24/2003 0:00</td>
+      <td>Shipped</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2003</td>
+      <td>897 Long Airport Avenue</td>
+      <td>NaN</td>
+      <td>NYC</td>
+      <td>NY</td>
+      <td>10022</td>
+      <td>USA</td>
+      <td>NaN</td>
+      <td>Yu</td>
+      <td>Kwai</td>
+      <td>Small</td>
+    </tr>
+    <tr>
+      <td>10121</td>
+      <td>34</td>
+      <td>81.35</td>
+      <td>5</td>
+      <td>2765.90</td>
+      <td>5/7/2003 0:00</td>
+      <td>Shipped</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2003</td>
+      <td>59 rue de l'Abbaye</td>
+      <td>NaN</td>
+      <td>Reims</td>
+      <td>NaN</td>
+      <td>51100</td>
+      <td>France</td>
+      <td>EMEA</td>
+      <td>Henriot</td>
+      <td>Paul</td>
+      <td>Small</td>
+    </tr>
+
+<tr>
+      <td>10134</td>
+      <td>41</td>
+      <td>94.74</td>
+      <td>2</td>
+      <td>3884.34</td>
+      <td>7/1/2003 0:00</td>
+      <td>Shipped</td>
+      <td>3</td>
+      <td>7</td>
+      <td>2003</td>
+      <td>27 rue du Colonel Pierre Avia</td>
+      <td>NaN</td>
+      <td>Paris</td>
+      <td>NaN</td>
+      <td>75508</td>
+      <td>France</td>
+      <td>EMEA</td>
+      <td>Da Cunha</td>
+      <td>Daniel</td>
+      <td>Medium</td>
+    </tr>
+
+<tr>
+      <td>10145</td>
+      <td>45</td>
+      <td>83.26</td>
+      <td>6</td>
+      <td>3746.70</td>
+      <td>8/25/2003 0:00</td>
+      <td>Shipped</td>
+      <td>3</td>
+      <td>8</td>
+      <td>2003</td>
+      <td>78934 Hillside Dr.</td>
+      <td>NaN</td>
+      <td>Pasadena</td>
+      <td>CA</td>
+      <td>90003</td>
+      <td>USA</td>
+      <td>NaN</td>
+      <td>Young</td>
+      <td>Julie</td>
+      <td>Medium</td>
+    </tr>
+
+<tr>
+      <td>10159</td>
+      <td>49</td>
+      <td>100.00</td>
+      <td>14</td>
+      <td>5205.27</td>
+      <td>10/10/2003 0:00</td>
+      <td>Shipped</td>
+      <td>4</td>
+      <td>10</td>
+      <td>2003</td>
+      <td>7734 Strong St.</td>
+      <td>NaN</td>
+      <td>San Francisco</td>
+      <td>CA</td>
+      <td>NaN</td>
+      <td>USA</td>
+      <td>NaN</td>
+      <td>Brown</td>
+      <td>Julie</td>
+      <td>Medium</td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+
+<head>
+  <title>Missing Values</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Missing Values</h1>
+  <table>
+    <tr>
+      <th>Coloumn Name</th>
+      <th>Number of missing values</th>
+    </tr>
+    <tr>
+      <td>ORDERNUMBER</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QUANTITYORDERED</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PRICEEACH</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ORDERLINENUMBER</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SALES</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ORDERDATE</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>STATUS</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QTR_ID</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MONTH_ID</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YEAR_ID</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PRODUCTLINE</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MSRP</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PRODUCTCODE</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CUSTOMERNAME</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PHONE</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ADDRESSLINE1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ADDRESSLINE2</td>
+      <td>2521</td>
+    </tr>
+    <tr>
+      <td>CITY</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>STATE</td>
+      <td>1486</td>
+    </tr>
+    <tr>
+      <td>POSTALCODE</td>
+      <td>76</td>
+    </tr>
+    <tr>
+      <td>COUNTRY</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TERRITORY</td>
+      <td>1074</td>
+    </tr>
+    <tr>
+      <td>CONTACTLASTNAME</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CONTACTFIRSTNAME</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DEALSIZE</td>
+      <td>0</td>
+    </tr>
+  </table>
+</body>
+
+<head>
+  <title>الأعمدة غير المهمة</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Delete unimportant columns</h1>
+  <table>
+    <tr>
+      <th>Column Name</th>
+      <th>Number of missing values</th>
+    </tr>
+    <tr>
+      <td>ORDERNUMBER</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QUANTITYORDERED</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PRICEEACH</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ORDERLINENUMBER</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SALES</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ORDERDATE</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>STATUS</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>QTR_ID</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MONTH_ID</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YEAR_ID</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PRODUCTLINE</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MSRP</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PRODUCTCODE</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CUSTOMERNAME</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PHONE</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ADDRESSLINE1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CITY</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNTRY</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CONTACTLASTNAME</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CONTACTFIRSTNAME</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DEALSIZE</td>
+      <td>0</td>
+    </tr>
+  </table>
+</body>
+
+
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>   </h1>
+  
+  <table>
+    <tr>
+       
+      <th> </th>
+    </tr>
+    <tr>
+     
+      <td></td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+<head>
+  <title>Revenue report</title>
+</head>
+<body>
+  <h1>Revenue report</h1>
+  
+  <table>
+    <tr>
+       
+      <th>Total revenue generated</th>
+    </tr>
+    <tr>
+     
+      <td>$8290886.789999999</td>
+    </tr>
+  </table>
+</body>
+
+
+
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>   </h1>
+  
+  <table>
+    <tr>
+       
+      <th> </th>
+    </tr>
+    <tr>
+     
+      <td></td>
+    </tr>
+  </table>
+</body>
+
+
+
+<head>
+  <title>Units sold report</title>
+</head>
+<body>
+  <h1>Units sold report</h1>
+  
+  <table>
+    <tr>
+       
+      <th>total_units_sold</th>
+    </tr>
+    <tr>
+     
+      <td>99067</td>
+    </tr>
+  </table>
+</body>
+
+
+
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>   </h1>
+  
+  <table>
+    <tr>
+       
+      <th> </th>
+    </tr>
+    <tr>
+     
+      <td></td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+
+
+
+<head>
+  <title>تقرير المنتجات</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Products report</h1>
+  
+  <table>
+    <tr>
+      <th>PRODUCT CODE</th>
+      <th>total_units_sold</th>
+      <th>total_sales</th>
+      <th>average_price_per_unit</th>
+    </tr>
+    <tr>
+      <td>S10_1678</td>
+      <td>944</td>
+      <td>2407.80</td>
+      <td>2.550636</td>
+    </tr>
+    <tr>
+      <td>S10_1949</td>
+      <td>961</td>
+      <td>2800.00</td>
+      <td>2.913632</td>
+    </tr>
+    <tr>
+      <td>S10_2016</td>
+      <td>928</td>
+      <td>2453.51</td>
+      <td>2.643869</td>
+    </tr>
+ 
+    <tr>
+      <td>S72_1253</td>
+      <td>920</td>
+      <td>1509.22</td>
+      <td>1.640457</td>
+    </tr>
+    <tr>
+      <td>S72_3212</td>
+      <td>927</td>
+      <td>1660.51</td>
+      <td>1.791273</td>
+    </tr>
+  </table>
+</body>
+
+
+
+<head>
+  <title>تقرير المنتجات</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Products report</h1>
+  
+  <table>
+    <tr>
+      <th>PRODUCTCODE</th>
+      <th>total_units_sold</th>
+      <th>average_price_per_unit</th>
+    </tr>
+    <tr>
+      <td>S10_1678</td>
+      <td>944</td>
+      <td>92.607692</td>
+    </tr>
+    <tr>
+      <td>S10_1949</td>
+      <td>961</td>
+      <td>100.000000</td>
+    </tr>
+    <tr>
+      <td>S10_2016</td>
+      <td>928</td>
+      <td>94.365769</td>
+    </tr>
+ 
+    <tr>
+      <td>S72_1253</td>
+      <td>920</td>
+      <td>55.897037</td>
+    </tr>
+    <tr>
+      <td>S72_3212</td>
+      <td>927</td>
+      <td>63.865769</td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orders Report</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Orders Report</h1>
+  
+  <p>Total number of orders: 307</p>
+  
+  <p>Unique order numbers:</p>
+  <ul>
+    <li>10107 10121 10134 10145 10159 10168 10180 10188 10201 10211 10223 10223 </li>
+    <li>10251 10263 10275 10285 10299 10309 10318 10329 10341 10361 10375 10388</li>
+    <li>10403 10417 10103 10112 10126 10140 10150 10163 10174 10183 10194 10206</li>
+    <li>10215 10228 10245 10258 10270 10280 10291 10304 10312 10322 10333 10347</li>
+        <li>10357 10369 10381 10391 10411 10424 10120 10210 10236 10298 10308 10339</li>
+        <li>10374 10402 10362 10105 10119 10129 10143 10155 10167 10178 10186 10197</li>
+    <li>10209 10222 10248 10261 10273 10283 10295 10307 10316 10325 10337 10350</li>
+    <li> 10359 10373 10384 10395 10400 10414 10114 10164 10175 10207 10217 10229</li>
+    <li> 10259 10281 10305 10313 10334 10370 10425 10108 10122 10135 10147 10169</li>
+    <li> 10181 10191 10203 10225 10238 10253 10266 10276 10287 10300 10310 10320</li>
+    <li> 10363 10389 10419 10117 10127 10142 10153 10165 10176 10185 10196 10208</li>
+      <li> 10220 10231 10247 10272 10282 10293 10306 10314 10336 10348 10371 10382</li>
+    <li> 10413 10113 10216 10189 10224 10319 10104 10230 10324 10358 10372 10160</li>
+        <li> 10170 10212 10376 10349 10396 10377 10115 10141 10151 10184 10195 10219</li>
+    <li> 10246 10271 10292 10412 10192 10239 10277 10321 10405 10109 10136 10148</li>
+    <li> 10161 10171 10204 10240 10278 10301 10331 10342 10356 10365 10390 10406</li>
+      <li> 10102 10111 10125 10139 10149 10162 10173 10182 10193 10205 10227 10244</li>
+    <li> 10256 10289 10332 10346 10380 10422 10110 10123 10137 10172 10226 10241</li>
+        <li> 10288 10311 10343 10367 10378 10407 10106 10131 10198 10250 10262 10274</li>
+      <li> 10284 10296 10327 10338 10351 10386 10398 10416 10100 10124 10214 10302</li>
+    <li> 10344 10379 10420 10366 10303 10383 10101 10243 10409 10133 10235 10297</li>
+        <li> 10353 10401 10255 10421 10257 10423 10269 10392 10130 10128 10166 10177</li>
+      <li> 10221 10232 10394 10326 10252 10265 10290 10323 10330 10355 10146 10264</li>
+     <li> 10286 10249 10328 10415 10152 10213 10315 10267 10279 10158 10340 10345</li>
+        <li> 10190 10368 10335 10154 10233 10385 10242 10408 10317 10387 10364 10116</li>
+     <li>10144 10156 10199 10397 10352 10118 10294</li>
+  </ul>
+</body>
+
+
+
+
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>   </h1>
+  
+  <table>
+    <tr>
+       
+      <th> </th>
+    </tr>
+    <tr>
+     
+      <td></td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+<head>
+  <title>Top 10 product recommendations</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <h1>Top 10 product recommendations:</h1>
+  
+ 
+  
+  <table>
+    <tr>
+      <th>PRODUCTCODE</th>
+      <th>total_revenue</th>
+      <th>total_units_sold</th>
+      <th>average_price_per_unit</th>
+    </tr>
+    <tr>
+      <td>S18_1097</td>
+      <td>94660.69</td>
+      <td>999</td>
+      <td>94.588571</td>
+    </tr>
+
+<tr>
+      <td>S12_4473</td>
+      <td>95489.58</td>
+      <td>1024</td>
+      <td>93.390370</td>
+    </tr>
+
+<tr>
+      <td>S18_3232</td>
+      <td>176026.63</td>
+      <td>1774</td>
+      <td>99.045000</td>
+    </tr>
+
+<tr>
+      <td>S18_2432</td>
+      <td>63274.65</td>
+      <td>998</td>
+      <td>62.963214</td>
+    </tr>
+
+<tr>
+      <td>S18_2949</td>
+      <td>93555.78</td>
+      <td>991</td>
+      <td>93.778519</td>
+    </tr>
+<tr>
+      <td>S24_3856</td>
+      <td>103489.89</td>
+      <td>1052</td>
+      <td>98.068519</td>
+    </tr>
+<tr>
+      <td>S700_4002</td>
+      <td>75398.28</td>
+      <td>1029</td>
+      <td>73.621111</td>
+    </tr>
+<tr>
+      <td>S700_2824</td>
+      <td>90571.66</td>
+      <td>976</td>
+      <td>92.760370</td>
+    </tr>
+<tr>
+      <td>S24_3949</td>
+      <td>72153.13</td>
+      <td>1008</td>
+      <td>71.878889</td>
+    </tr>
+<tr>
+      <td>S18_4600</td>
+      <td>101835.00</td>
+      <td>1031</td>
+      <td>98.374444</td>
+    </tr> 
+  </table>
+  
+
+
+
+
+
+
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>   </h1>
+  
+  <table>
+    <tr>
+       
+      <th> </th>
+    </tr>
+    <tr>
+     
+      <td></td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+<table>
+    <tr>
+      <th>PRODUCT CODE</th>
+      <th>total_orders</th>
+      <th>revenue_rank</th>
+      <th>units_sold_rank</th>
+      <th>avg_price_rank</th>
+    </tr>
+    <tr>
+      <td>S18_1097</td>
+      <td>28</td>
+      <td>11.0</td>
+      <td>7.5</td>
+      <td>72.0</td>
+    </tr>
+
+  <tr>
+      <td>S12_4473</td>
+      <td>27</td>
+      <td>9.0</td>
+      <td>5.0</td>
+      <td>62.0</td>
+    </tr>
+
+  <tr>
+      <td>S18_3232</td>
+      <td>52</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>102.0</td>
+    </tr>
+
+
+      <tr>
+      <td>S18_2432</td>
+      <td>28</td>
+      <td>79.0</td>
+      <td>9.0</td>
+      <td>18.0</td>
+    </tr>
+
+<tr>
+      <td>S18_2949</td>
+      <td>27</td>
+      <td>15.0</td>
+      <td>14.0</td>
+      <td>65.0</td>
+    </tr>
+<tr>
+      <td>S24_3856</td>
+      <td>27</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>96.0</td>
+    </tr>
+<tr>
+      <td>S700_4002</td>
+      <td>27</td>
+      <td>25.0</td>
+      <td>18.5</td>
+      <td>58.0</td>
+    </tr>
+<tr>
+      <td>S24_3949</td>
+      <td>27</td>
+      <td>70.0</td>
+      <td>6.0</td>
+       <td>27.0</td>
+    </tr>
+<tr>
+      <td>S700_4002</td>
+      <td>21.5</td>
+      <td>30.375</td>
+    </tr>
+<tr>
+      <td>S700_2824</td>
+      <td>21.5</td>
+      <td>30.750</td>
+    </tr>
+
+<tr>
+      <td>S24_3949</td>
+      <td>21.5</td>
+      <td>31.125</td>
+    </tr>
+
+<tr>
+      <td>S18_4600</td>
+      <td>21.5</td>
+      <td>31.125</td>
+    </tr>
+
+
+  </table>
+
+
+</body>
+
+
+
+
+
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>   </h1>
+  
+  <table>
+    <tr>
+       
+      <th> </th>
+    </tr>
+    <tr>
+     
+      <td></td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+
+
+
+
+<head>
+    <title>Revenue Data</title>
+
+
+</head>
+
+<body>
+  <h1>total revenue generated per month</h1>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>DATE</th>
+            <th>REVENUE_TOTAL</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>2003-01-01</td>
+            <td>107885.96</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2003-02-01</td>
+            <td>107885.96</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2003-01-01</td>
+            <td>120036.80</td>
+        </tr>
+
+<tr>
+            <td>3</td>
+            <td>2003-04-01</td>
+            <td>144096.23</td>
+        </tr>
+<tr>
+            <td>4</td>
+            <td>2003-05-01</td>
+            <td>169421.03</td>
+        </tr>
+<tr>
+            <td>5</td>
+            <td>2003-06-01</td>
+            <td>163654.12</td>
+        </tr>
+
+<tr>
+            <td>6</td>
+            <td>2003-07-01</td>
+            <td>139552.84</td>
+        </tr>
+
+<tr>
+            <td>7</td>
+            <td>2003-08-01</td>
+            <td>149869.73</td>
+        </tr>
+
+<tr>
+            <td>8</td>
+            <td>2003-09-01</td>
+            <td>211045.86</td>
+        </tr>
+
+<tr>
+            <td>9</td>
+            <td>2003-10-01</td>
+            <td>466240.57</td>
+        </tr>
+
+<tr>
+            <td>10</td>
+            <td>2003-11-01</td>
+            <td>850203.27</td>
+        </tr>
+<tr>
+            <td>11</td>
+            <td>2003-12-01</td>
+            <td>210117.21</td>
+        </tr>
+
+<tr>
+            <td>12</td>
+            <td>2004-01-01</td>
+            <td>268015.87</td>
+        </tr>
+
+<tr>
+            <td>13</td>
+            <td>2004-02-01</td>
+            <td>258389.05</td>
+        </tr>
+
+<tr>
+            <td>14</td>
+            <td>2004-03-01</td>
+            <td>166958.56</td>
+        </tr>
+
+<tr>
+            <td>15</td>
+            <td>2004-04-01</td>
+            <td>172935.80</td>
+        </tr>
+
+<tr>
+            <td>16</td>
+            <td>2004-05-01</td>
+            <td>220815.14</td>
+        </tr>
+
+<tr>
+            <td>17</td>
+            <td>2004-06-01</td>
+            <td>245190.75</td>
+        </tr>
+
+<tr>
+            <td>18</td>
+            <td>2004-07-01</td>
+            <td>271103.61</td>
+        </tr>
+
+<tr>
+            <td>19</td>
+            <td>2004-08-01</td>
+            <td>386106.59</td>
+        </tr>
+
+<tr>
+            <td>20</td>
+            <td>2003-01-01</td>
+            <td>263854.26</td>
+        </tr>
+
+<tr>
+            <td>21</td>
+            <td>2004-10-01</td>
+            <td>452796.13</td>
+        </tr>
+
+<tr>
+            <td>22</td>
+            <td>2004-11-01</td>
+            <td>894479.18</td>
+        </tr>
+
+<tr>
+            <td>23</td>
+            <td>2004-12-01</td>
+            <td>313055.93</td>
+        </tr>
+
+ 
+
+<tr>
+            <td>25</td>
+            <td>2005-02-01</td>
+            <td>289902.30</td>
+        </tr>
+
+<tr>
+            <td>26</td>
+            <td>2005-03-01</td>
+            <td>315131.94</td>
+        </tr>
+<tr>
+            <td>27</td>
+            <td>2005-04-01</td>
+            <td>217977.63</td>
+        </tr>
+
+<tr>
+            <td>28</td>
+            <td>2005-05-01</td>
+            <td>372343.65</td>
+        </tr>
+    </table>
+</body>
+
+
+
+
+
+
+
+
+
+
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>   </h1>
+  
+  <table>
+    <tr>
+       
+      <th> </th>
+    </tr>
+    <tr>
+     
+      <td></td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+
+<head>
+    <title>Revenue Data</title>
+
+
+</head>
+
+<body>
+  <h1>total units sold per month</h1>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>DATE</th>
+            <th>QUANTITY ORDEREDL</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>2003-01-01</td>
+            <td>1357</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2003-02-01</td>
+            <td>1449</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2003-03-01</td>
+            <td>1755</td>
+        </tr>
+
+<tr>
+            <td>3</td>
+            <td>2003-04-01</td>
+            <td>1993</td>
+        </tr>
+<tr>
+            <td>4</td>
+            <td>2003-05-01</td>
+            <td>2017</td>
+        </tr>
+<tr>
+            <td>5</td>
+            <td>2003-06-01</td>
+            <td>1649</td>
+        </tr>
+
+<tr>
+            <td>6</td>
+            <td>2003-07-01</td>
+            <td>1725</td>
+        </tr>
+
+<tr>
+            <td>7</td>
+            <td>2003-08-01</td>
+            <td>1974</td>
+        </tr>
+
+<tr>
+            <td>8</td>
+            <td>2003-09-01</td>
+            <td>2510</td>
+        </tr>
+
+<tr>
+            <td>9</td>
+            <td>2003-10-01</td>
+            <td>5515</td>
+        </tr>
+
+<tr>
+            <td>10</td>
+            <td>2003-11-01</td>
+            <td>10179</td>
+        </tr>
+<tr>
+            <td>11</td>
+            <td>2003-12-01</td>
+            <td>2489</td>
+        </tr>
+
+<tr>
+            <td>12</td>
+            <td>2004-01-01</td>
+            <td>3245</td>
+        </tr>
+
+<tr>
+            <td>13</td>
+            <td>2004-02-01</td>
+            <td>3061</td>
+        </tr>
+
+<tr>
+            <td>14</td>
+            <td>2004-03-01</td>
+            <td>1978</td>
+        </tr>
+
+<tr>
+            <td>15</td>
+            <td>2004-04-01</td>
+            <td>2077</td>
+        </tr>
+
+<tr>
+            <td>16</td>
+            <td>2004-05-01</td>
+            <td>2618</td>
+        </tr>
+
+<tr>
+            <td>17</td>
+            <td>2004-06-01</td>
+            <td>2971</td>
+        </tr>
+
+<tr>
+            <td>18</td>
+            <td>2004-07-01</td>
+            <td>3174</td>
+        </tr>
+
+<tr>
+            <td>19</td>
+            <td>2004-08-01</td>
+            <td>4564</td>
+        </tr>
+
+<tr>
+            <td>20</td>
+            <td>2003-01-01</td>
+            <td>3171</td>
+        </tr>
+
+<tr>
+            <td>21</td>
+            <td>2004-10-01</td>
+            <td>5483</td>
+        </tr>
+
+<tr>
+            <td>22</td>
+            <td>2004-11-01</td>
+            <td>10678</td>
+        </tr>
+
+<tr>
+            <td>23</td>
+            <td>2004-12-01</td>
+            <td>3804</td>
+        </tr>
+
+ 
+
+<tr>
+            <td>25</td>
+            <td>2005-02-01</td>
+            <td>3393</td>
+        </tr>
+
+<tr>
+            <td>26</td>
+            <td>2005-03-01</td>
+            <td>3852</td>
+        </tr>
+<tr>
+            <td>27</td>
+            <td>2005-04-01</td>
+            <td>2634</td>
+        </tr>
+
+<tr>
+            <td>28</td>
+            <td>2005-05-01</td>
+            <td>4357</td>
+        </tr>
+    </table>
+</body>
+
+
+
+
+
+
+
+
+
+<head>
+    <title>Product Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<h1>AVGP RICE FOR PRODUCT IN MONTH</h1>
+    <table>
+        <tr>
+            <th>DATE</th>
+            <th>PRODUCTCODE</th>
+            <th>PRICEEACH</th>
+            <th>QUANTITYORDERED</th>
+            <th>REVENUE_TOTAL</th>
+            <th>AVGPRICEFORPRODUCTINMONTH</th>
+        </tr>
+        <tr>
+            <td>2003-01-01</td>
+            <td>S10_1949</td>
+            <td>100.00</td>
+            <td>26</td>
+            <td>2600.00</td>
+            <td>3.846154</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>S10_4962</td>
+            <td>100.00</td>
+            <td>42</td>
+            <td>4200.00</td>
+            <td>2.380952</td>
+        </tr>
+
+ <tr>
+            <td></td>
+            <td>S12_1666</td>
+            <td>100.00</td>
+            <td>27</td>
+            <td>2700.00</td>
+            <td>3.703704</td>
+        </tr>
+  <tr>
+            <td></td>
+            <td>S12_3148</td>
+            <td>100.00</td>
+            <td>34</td>
+            <td>3400.00</td>
+            <td>2.941176</td>
+        </tr>
+
+  <tr>
+            <td></td>
+            <td>S12_4473</td>
+            <td>100.00</td>
+            <td>41</td>
+            <td>4100.00</td>
+            <td>2.439024</td>
+        </tr>
+
+
+<tr>
+            <td>2005-05-01</td>
+            <td>S700_3505</td>
+            <td>100.00</td>
+            <td>28</td>
+            <td>2800.00</td>
+            <td>3.571429</td>
+        </tr>
+
+<tr>
+            <td></td>
+            <td>S700_3962</td>
+            <td>90.37</td>
+            <td>27</td>
+            <td>2439.99</td>
+            <td>3.347037</td>
+        </tr>
+
+
+<tr>
+            <td></td>
+            <td>S700_4002</td>
+            <td>62.19</td>
+            <td>43</td>
+            <td>2674.17</td>
+            <td>1.446279</td>
+        </tr>
+<tr>
+            <td></td>
+            <td>S72_1253</td>
+            <td>57.61</td>
+            <td>42</td>
+            <td>2419.62</td>
+            <td>1.371667</td>
+        </tr>
+<tr>
+            <td></td>
+            <td>S72_3212</td>
+            <td>65.52</td>
+            <td>47</td>
+            <td>3079.44</td>
+            <td>1.394043</td>
+        </tr>
+
+
+
+
+
+
+
+    </table>
+</body>
+
+
+
+
+
+
+
+
+<head>
+    <title>Sales Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .chart {
+            max-width: 600px;
+            width: 100%;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Data</h1>
+
+    <h2>Data Table</h2>
+    <table>
+        <tr>
+            <th>YEAR</th>
+            <th>MONTH</th>
+            <th>PRODUCTCODE</th>
+            <th>total_sales</th>
+            <th>total_units_sold</th>
+            <th>total_revenue</th>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S10_1949</td>
+            <td>5404.62</td>
+            <td>26</td>
+            <td>2600.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S10_4962</td>
+            <td>5398.26</td>
+            <td>42</td>
+            <td>4200.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S12_1666</td>
+            <td>3394.98</td>
+            <td>27</td>
+            <td>2700.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S12_3148</td>
+            <td>5958.50</td>
+            <td>34</td>
+            <td>3400.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S12_4473</td>
+            <td>4615.78</td>
+            <td>41</td>
+            <td>4100.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_1097</td>
+            <td>3920.00</td>
+            <td>35</td>
+            <td>3500.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_1342</td>
+            <td>4808.31</td>
+            <td>39</td>
+            <td>3900.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_1367</td>
+            <td>2055.74</td>
+            <td>41</td>
+            <td>2055.74</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_1749</td>
+            <td>5151.00</td>
+            <td>30</td>
+            <td>3000.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_2238</td>
+            <td>3457.92</td>
+            <td>24</td>
+            <td>2400.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_2248</td>
+            <td>3390.00</td>
+            <td>50</td>
+            <td>3390.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_2319</td>
+            <td>3772.61</td>
+            <td>29</td>
+            <td>2900.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td</td>
+            <td>S18_2325</td>
+            <td>3782.00</td>
+            <td>25</td>
+            <td>2500.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_2432</td>
+            <td>1189.98</td>
+            <td>22</td>
+            <td>1189.98</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_2795</td>
+            <td>3773.38</td>
+            <td>26</td>
+            <td>2600.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_2949</td>
+            <td>2242.89</td>
+            <td>27</td>
+            <td>2242.89</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_2957</td>
+            <td>2011.10</td>
+            <td>35</td>
+            <td>2011.10</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_3136</td>
+            <td>2539.50</td>
+            <td>25</td>
+            <td>2500.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_3232</td>
+            <td>4556.99</td>
+            <td>23</td>
+            <td>2300.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_3320</td>
+            <td>4791.82</td>
+            <td>46</td>
+            <td>4600.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_4027</td>
+            <td>5348.50</td>
+            <td>38</td>
+            <td>3800.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_4409</td>
+            <td>1903.22</td>
+            <td>22</td>
+            <td>1903.22</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_4600</td>
+            <td>4228.20</td>
+            <td>36</td>
+            <td>3600.00</td>
+        </tr>
+        <tr>
+            <td>2003</td>
+            <td>1</td>
+            <td>S18_4668</td>
+            <td>1938.89</td>
+            <td>41</td>
+            <td>1938.89</td>
+        </tr>
+ 
+    </table>
+
+ 
+
+
+</body>
+
+
+
+
+
+
+<head>
+</head>
+<body>
+    <h1>Image Display</h1>
+
+    <img src="image.png" alt="Image">
+
+</body>
+
+
+
+
+
+
+<head>
+ 
+</head>
+<body>
+    <h1>Image Display</h1>
+
+    <img src="image2.png" alt="Image">
+
+</body>
+
+
+<head>
+  <title>Sales report by city</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Sales report by city</h1>
+  
+  <table id="salesTable">
+    <tr>
+      <th>City</th>
+      <th>sales</th>
+    </tr>
+    <tr>
+      <td>Madrid</td>
+      <td>1082551.44</td>
+    </tr>
+    <tr>
+      <td>San Rafael</td>
+      <td>654858.06</td>
+    </tr>
+    <tr>
+      <td>NYC</td>
+      <td>560787.77</td>
+    </tr>
+    <tr>
+      <td>Singapore</td>
+      <td>288488.41</td>
+    </tr>
+    <tr>
+      <td>Paris</td>
+      <td>268944.68</td>
+    </tr>
+  </table>
+  
+  <head>
+</head>
+<body>
+    <h1>Image Display</h1>
+
+    <img src="image3.png" alt="Image">
+
+</body>
+
+
+
+</html>
